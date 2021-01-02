@@ -10,7 +10,7 @@ Follows [React Developer Course](https://www.udemy.com/course/complete-react-dev
 
 ---
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
