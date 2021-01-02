@@ -6,6 +6,8 @@ Learning React Basics
 
 Follows [React Developer Course](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/15091038#overview) basics section 1
 
+- Lifecycle are methods called automatically by React at different stages of a component's lifecycle.
+
 ---
 
 # Getting Started with Create React App
