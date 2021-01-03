@@ -7,6 +7,7 @@ Learning React Basics
 Follows [React Developer Course](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/learn/lecture/15091038#overview) basics section 1
 
 - Lifecycle are methods called automatically by React at different stages of a component's lifecycle.
+- To deploy to github pages, follow this walkthrough [https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
 
 ---
 
