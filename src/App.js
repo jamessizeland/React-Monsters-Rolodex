@@ -5,10 +5,10 @@ import { SearchBox } from "./components/search-box/search-box.component";
 import "./App.css";
 
 class App extends Component {
+  // constructor initializes the App object when it is created by index.js
   constructor() {
     super();
-
-    // Define Prvate Data
+    // Define class data defaults
     this.state = {
       monsters: [],
       searchField: "",
@@ -21,7 +21,12 @@ class App extends Component {
       .then((response) => response.json())
       .then((users) => this.setState({ monsters: users }));
   }
-  // Output
+
+  handleChange = (event) => {
+    this.setState({ searchField: event.target.value });
+  };
+
+  // main GUI output
   render() {
     const { monsters, searchField } = this.state;
     const filteredMonsters = monsters.filter((monster) =>
@@ -31,7 +36,7 @@ class App extends Component {
       <div className="App">
         <SearchBox
           placeholder="search monsters"
-          handleChange={(e) => this.setState({ searchField: e.target.value })}
+          handleChange={this.handleChange}
         />
         <CardList monsters={filteredMonsters}></CardList>
       </div>
